@@ -1,0 +1,167 @@
+@import url('https://fonts.googleapis.com/css2?family=Anton&family=Khand:wght@300;400;500;600;700&family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap');
+
+.corpo {
+    height: 100vh;
+    width: 100vw;
+    background: linear-gradient(146deg, #ffeb39, #ff0c41);
+    position: relative;
+    margin: 0;
+}
+
+.caixa-tempo {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+
+.div-relogio {
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    top: 20%;
+    left: 24%;
+    background: linear-gradient(146deg, #ffeb3938, #ff0c416b);
+    color: white;
+    position: fixed;
+    height: 360px;
+    min-width: 700px;
+    max-width: 1500px;
+    border-radius: 15px;
+    box-shadow: 10px 20px 15px #000000ad;
+
+}
+
+.Relogio {
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 180px;
+    height: 180px;
+    background-color: rgba(14, 0, 0, 0.877);
+    opacity: 0.83;
+    box-sizing: border-box;
+    margin: 20px;
+    border-radius: 15px;
+
+}
+
+.Relogio:hover {
+    background-color: rgb(14, 0, 0);
+}
+
+.Relogio_menor {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 120px;
+    height: 120px;
+    background-color: rgba(14, 0, 0, 0.877);
+    opacity: 0.83;
+    box-sizing: border-box;
+    margin-left: 20px;
+    margin-right: 20px;
+    margin-top: 60px;
+    border-radius: 15px;
+
+
+}
+
+.mes {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    min-width: 200px;
+    max-width: 800px;
+    min-height: 110px;
+    max-height: 350px;
+    background-color: rgba(14, 0, 0, 0.877);
+    opacity: 0.83;
+    box-sizing: border-box;
+    border-radius: 15px;
+    margin-top: 20px;
+    margin-left: 25px;
+    margin-right: 25px;
+}
+
+.mes:hover {
+    background-color: rgb(14, 0, 0);
+}
+
+.mes-mes {
+    font-size: 50px;
+    font-family: 'Anton', sans-serif;
+    box-sizing: border-box;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+.mes-dia {
+    font-size: 20px;
+    font-family: 'Anton', sans-serif;
+    box-sizing: border-box;
+    margin-top: -5px
+}
+
+.ano {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 150px;
+    height: 50px;
+    background-color: rgba(14, 0, 0, 0.877);
+    opacity: 0.83;
+    box-sizing: border-box;
+    border-radius: 15px;
+    margin-top: 20px;
+    margin-left: 25x;
+    margin-right: 25px;
+    z-index: 1;
+    color: #ffffff;
+    position: fixed;
+    top: 130px;
+    left: 350px;
+    font-family: 'Anton', sans-serif;
+    font-size: 30px;
+}
+
+.ano:hover{
+    background-color: rgb(14, 0, 0);
+}
+
+#horas {
+    font-size: 100px;
+    font-family: 'Anton', sans-serif;
+
+}
+
+#minutos {
+    font-size: 100px;
+    font-family: 'Anton', sans-serif;
+
+}
+
+#segundos {
+    font-size: 100px;
+    font-family: 'Anton', sans-serif;
+
+}
+
+#milissegundos {
+    font-size: 50px;
+    font-family: 'Anton', sans-serif;
+}
+
+.tempo {
+    font-family: 'Anton', sans-serif;
+    font-size: small;
+    letter-spacing: 2px;
+}
